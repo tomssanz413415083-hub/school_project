@@ -18,11 +18,36 @@ int main() {
         printf("0. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
-   
 
+        switch (choice) {
+            case 1:
+                addStudent(students, &count);
+                break;
+            case 2:
+                displayStudents(students, count);
+                break;
+            case 3:
+                searchStudent(students, count);
+                break;
+            case 4:
+                calculateAverage(students, count);
+                break;
+	    case 5:
+                findHighest(students, count);
+                break;
+	    case 6:
+                saveToFile(students, count);
+                break;
+	    case 7:
+                loadFromFile(students, &count);
+                break;
+            case 0:
+                printf("Exiting program.\n");
+                break;
+            default:
+                printf("Invalid choice.\n");
+        }
+    } while (choice != 0);
 
-
-
-	} while (choice != 0);
-	return 0;
+    return 0;
 }
