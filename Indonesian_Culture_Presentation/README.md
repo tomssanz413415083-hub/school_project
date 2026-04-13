@@ -42,6 +42,6 @@ Student ID: 413415083
 Role: Create presentation, research cultural content, design slides
 
 Name: 張潔美
-Student ID: 413415083
+Student ID: 414416072
 Role: Create the script for the person who presentate the powerpoint and also the detail of each Indonesia Culture
 
