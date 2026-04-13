@@ -27,7 +27,7 @@ The following files are tracked:
 
 
 ## Author
-Name: Tommy Sanjaya
+Name: 張王福
 Student ID:413415083
 Role: Develop program, manage Git repository, write documentation
 
